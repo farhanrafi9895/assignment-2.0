@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.low-gray{
+    color: #8987A1;
+}
+.black{
+    color: #252432;
+}
+.more-black{
+    color: #000000;
+}
+.orange{
+    color: #E95A08;
+}
+.nav-icon{
+    display: flex;
+}
+.nav-menu-item{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+.nav-menu{
+    display: flex;
+    gap: 48px;
+}
+.navbar{
+    display: flex;
+    max-width: 1140px;
+    margin: 30px auto;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner{
+    display: flex;
+    align-items: flex-end;
+    max-width: 1140px;
+    margin: 120px auto;
+}
+
+.banner-text{
+    flex: 1;
+}
+
+.banner-head-text{
+    font-size: 4rem;
+}
+.card{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.card-title{
+    font-size: 3rem;
+}
+.card-top{
+    text-align: center;
+}
+.card-description {
+    max-width: 888px;
+    margin: 0 auto;
+}
+.text-1{
+    font-size: 1.3rem;
+}
+.text-2{
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+.card-image{
+    width: 100%;
+}
+.card-btn{
+    background-color:#E95A08 ;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 12px 36px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+
+}
+
+.cards-card{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+}
+.card-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+}
+.card-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-img {
+    width: 100%;
+}
+.lover{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 60px;
+    max-width: 1140px;
+    margin: 130px auto;
+}
+.lover-information{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.lover-title{
+    font-size: 3rem;
+}
+.lover-image{
+    width: auto;
+
+}
+.lover-description{
+    font-size: 1.5rem;
+}
+.lover-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.deal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.deal-title{
+    text-align: center;
+
+}
+.deal-title-head{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.deal-title-description{
+    font-size: 1.5rem;
+    max-width: 888px;
+    text-align: center;
+}
+.img-1{
+    grid-area: a;
+    background-image: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+     url('assets/deal-bloom.png');
+}
+.img-2{
+    grid-area: b;
+    background-image:linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url('assets/deal-ana.png');
+}
+.img-3{
+    grid-area: c;
+    background-image: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+     url('assets/deal-zabo.png');
+}
+.img-1, .img-2, .img-3{
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.deal-img{
+    max-width: 1140px;
+    height: 420px;
+    margin: 120px auto;
+    display: grid;
+    grid-template-areas: 
+    "a c c"
+    "b c c";
+    gap: 28px;
+
+}
+.deal-img-title{
+    font-size: 1.3rem;
+    color: #FFFFFF;
+}
+.deal-btn{
+    color: #FFFFFF;
+}
+.deal-title-3{
+    font-size: 2.8rem;
+    color: #FFFFFF;
+}
+.deal-btn-3{
+    color: #FFFFFF;
+    font-size: 1.7rem;
+}
+.join-section{
+    background-image: 
+    url("assets/news-letter-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 533px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.join-form{
+    display: flex;
+    margin: 10px auto;
+    width: 100%;
+}
+.join-msg{
+    max-width: 830px;
+}
+.join-title{
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+.join-email{
+    padding: 12px;
+    width: 100%;
+    border: none;
+}
+.sub-btn{
+    background-color:#E95A08 ;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+.footer{
+    max-width: 1120px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 110px;
+}
+.footer-left-desci{
+    max-width: 359px;
+    font-size: 1.2rem;
+}
+.footer-middle a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.footer-middle{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 32px;
+}
+.footer-right {
+   max-width: 216px;
+}
+
+@media screen and (max-width:576px){
+    .nav-menu-item{
+        display: none;
+    }
+    .navbar{
+        padding: 0 10px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 28px;
+    }
+    .banner-image{
+       /* width: auto;*/
+       object-fit: cover;
+    }
+    .banner-head-text{
+    font-size: 2rem;
+    }
+    .banner-desci{
+        margin-top: 13px;
+    }
+   
+    .cards-card{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .card-title{
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+    .card-description{
+    font-size: 1rem;
+    }
+    .lover{
+        flex-direction: column;
+        gap: 18px;
+        margin: 80px auto;
+    }
+    .lover-image{
+        width: 100%;
+    }
+    .lover-image img{
+        width: 100%;
+    }
+    .lover-title{
+    font-size: 1.5rem;
+}
+    .lover-information{
+        width: 100%;
+    }
+    .lover-information img{
+        object-fit: cover;
+    }
+    .lover-info{
+        padding-left: 10px;
+    }
+.gap{
+    display: none;
+}
+.lover-description{
+    font-size: 1rem;
+}
+.deal-title{
+    text-align: center;
+    width: 100%;
+
+}
+.deal-title-head{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.deal-title-description{
+    font-size: .9rem;
+    text-align: center;
+    padding: 0 28.5px;
+    margin-top: 16px;
+}
+.deal-img{
+    max-width: 361px;
+    margin: 50px auto;
+    height: 581px;/*
+        grid-template-areas: 
+    "a"
+    "b"
+    "c";
+    gap: 20px;*/
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.deal-title-3{
+    font-size: 1.2rem;
+}
+.deal-btn-3{
+    font-size: .9rem;
+}
+.join-title{
+    font-size: 1.25rem;
+    text-align: center;
+}
+.join-msg{
+    max-width: 321px;
+}
+.join-section{
+    max-height: 275px;
+}
+.footer{
+    padding-left: 20px;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+}
+.footer-middle{
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+}
+
+
+
+    
+}
